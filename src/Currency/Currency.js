@@ -1,9 +1,9 @@
 import React from "react"
-import { Number } from "../"
+import { Number } from "../Number"
 import { useIntl } from "../IntlProvider"
 import { defaultIntlConfig } from "../helpers"
 
-const Currency = props => {
+const Currency = (props) => {
   const context = useIntl()
 
   const defaultCurrency = defaultIntlConfig.options.currency

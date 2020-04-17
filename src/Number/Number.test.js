@@ -1,6 +1,6 @@
 import React from "react"
 import { Number } from "."
-import { render } from "react-testing-library"
+import { render } from "@testing-library/react"
 import { IntlProvider } from "../IntlProvider"
 
 const NUMBER = 201300.9832
